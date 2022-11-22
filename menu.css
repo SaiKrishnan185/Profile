@@ -1,0 +1,138 @@
+
+.menu {
+  position: fixed;
+  display:flex;
+  left: 0;
+  right: 0;
+  justify-content:space-between;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  color:rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 100%;
+  padding-right: 15%;
+  padding-left: 10%;
+  gap: 5%;
+  border: 3px solid rgb(255, 255, 255);
+  box-shadow: -10px 10px 20px rgb(187, 187, 187);
+}
+
+
+.menu a:link, .menu a:visited {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  
+}
+
+
+
+.name {
+  width: 300%;
+  flex: 1;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 3px solid rgb(255, 255, 255);
+  color:rgb(0, 0, 0);
+  transition: background-color 0.25s;
+  transition: border 0.25s;
+  transition: box-shadow 0.05s;
+  transition-timing-function:linear;
+  border-radius: 50%;
+}
+
+.name:hover {
+  border: 3px solid rgb(235, 235, 235);
+  background-color: rgb(235, 235, 235);
+  box-shadow: -10px 5px 20px rgb(187, 187, 187);
+}
+
+ 
+.free {
+  width:25%;
+}
+
+.experience {
+  display:flex;
+  flex-direction: row;
+  flex:1;
+  color:rgb(0, 0, 0);
+  width: 120%;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  transition: background-color 0.25s;
+  transition: border 0.25s;
+  transition: box-shadow 0.05s;
+  transition-timing-function:linear;
+}
+
+.experience:hover {
+  border: 3px solid rgb(235, 235, 235);
+  background-color: rgb(235, 235, 235);
+  box-shadow: -10px 5px 20px rgb(187, 187, 187);
+}
+
+.skills {
+  display:flex;
+  flex-direction: row;
+  flex:1;
+  color:rgb(0, 0, 0);
+  width: 150%;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  transition: background-color 0.25s;
+  transition: border 0.25s;
+  transition: box-shadow 0.05s;
+  transition-timing-function:linear;
+}
+
+.skills:hover {
+  border: 3px solid rgb(235, 235, 235);
+  background-color: rgb(235, 235, 235);
+  box-shadow: -10px 5px 20px rgb(187, 187, 187);
+}
+
+.contact {
+  display:flex;
+  flex-direction: row;
+  flex:1;
+  width: 150%;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 3px solid rgb(255, 255, 255);
+  color:rgb(0, 0, 0);
+  border-radius: 50%;
+  transition: background-color 0.25s;
+  transition: border 0.25s;
+  transition: box-shadow 0.05s;
+  transition-timing-function:linear;
+}
+
+.contact:hover {
+  border: 3px solid rgb(235, 235, 235);
+  background-color: rgb(235, 235, 235);
+  box-shadow: -10px 5px 20px rgb(187, 187, 187);
+}
+
+
+
+@media (max-width: 600px){
+
+  .menu {
+    padding-right: 10%;
+    padding-left: 0%;
+    gap: 10%;
+  }
+
+  .name{
+    width: 200%;
+  }
+
+  .free {
+    width:0%;
+    display: none;
+  }
+
+}
