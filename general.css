@@ -1,0 +1,21 @@
+body {
+  background-color: rgb(255, 255, 255);
+  background-attachment:fixed;
+  background-size:cover;
+  margin-top: 0%;
+  font-family: roboto;
+  color:rgb(0, 0, 0);
+  align-items: center;
+}
+
+.page {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+@media (max-width: 600px){
+  .page {
+    margin-left: 2%;
+    margin-right: 3%;
+  }
+}
